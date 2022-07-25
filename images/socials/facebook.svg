@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="25px" height="46px" viewBox="0 0 25 46" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>80B08218-7BA5-4B9B-AC96-8F92B90E52A6</title>
+    <defs>
+        <path d="M7.15326937,45.0909091 L7.15326937,24.9232955 L0.437332189,24.9232955 L0.437332189,16.9090908 L7.15326937,16.9090909 L7.15326937,10.5946022 C7.15326937,3.73409082 11.3211782,-1.12728396e-07 17.4066754,-1.12728396e-07 C20.3224604,-1.12728396e-07 22.8267082,0.220170343 23.5534653,0.317045344 L23.5534653,7.48579539 L19.3330198,7.48579539 C16.0232099,7.48579539 15.3840138,9.07102266 15.3840138,11.3872159 L15.3840138,16.9090909 L22.8529764,16.9090908 L21.8285115,24.9232955 L15.3840138,24.9232955 L15.3840138,45.0909091" id="path-1"></path>
+    </defs>
+    <g id="wireframe" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="mockup/home-yellow" transform="translate(-770.000000, -4628.000000)">
+            <g id="footer" transform="translate(0.000000, 4409.000000)">
+                <g id="Group-3" transform="translate(605.000000, 219.000000)">
+                    <g id="facebook-2" transform="translate(138.363497, 0.000000)">
+                        <g id="facebook" transform="translate(27.000000, 0.000000)">
+                            <mask id="mask-2" fill="white">
+                                <use xlink:href="#path-1"></use>
+                            </mask>
+                            <use id="path-1" fill="#FFDB43" xlink:href="#path-1"></use>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

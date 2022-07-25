@@ -1,0 +1,161 @@
+
+body {
+  font-family: "Gilroy";
+  background-color: #FFFFFF;
+  font-size: 1rem;
+  line-height: 1.5;
+  font-weight: 400;
+}
+
+
+.bg-yellow {
+  background-color: #FFDB43 !important;
+  border-color: #FFDB43 !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-weight: bold;
+}
+
+.navbar .navbar-nav .nav-link:hover {
+  color: #000000 !important;
+}
+
+
+.services {
+  background-color: #fff;
+  min-height: 80vh;
+}
+
+.services h3 {
+  color: #B3B3B3;
+  font-size: 13px;
+  font-weight: bold;
+  letter-spacing: 0;
+  line-height: 16px;
+}
+
+.p-services  {
+  color: #000000;
+  font-size: 28px;
+  font-weight: bold;
+  letter-spacing: 0;
+  line-height: 34px;
+}
+
+.services h4 {
+  color: #000000;
+  font-size: 18px;
+  font-weight: bold;
+  letter-spacing: 0;
+  line-height: 21px;
+}
+
+.p-desc-services {
+  color: #666666;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 28px;
+}
+
+.box-service {
+  background-color: #FFFFFF;
+  box-shadow: 0 12px 24px 0 rgba(169,169,169,0.5) !important;
+  height: 185px;
+  padding: 20px 20px;
+  margin-bottom: 15px;
+}
+
+.box-service:hover {
+  border-top: 8px solid #007070 !important;
+  border-radius: 3px;
+}
+
+.projects {
+  background-color: #007070;
+}
+
+.projetsh3 {
+  color: #DBDBDB !important;
+  font-size: 13px !important;
+  font-weight: bold !important;
+  letter-spacing: 0 !important;
+  line-height: 16px !important;
+}
+
+.p-projets  {
+  color: #f6f6f6;
+  font-size: 28px;
+  font-weight: bold;
+  letter-spacing: 0;
+  line-height: 34px;
+}
+
+.project-card {
+  width: 100%;
+  height: 500px;
+  overflow: hidden;
+}
+
+
+.cc {
+  object-fit: contain;
+}
+
+.btn-custom-yellow {
+  color: #007070  !important;
+  background-color: #FFDB43 !important;
+  line-height: 20px;
+  font-size: 16px;
+  font-weight: bold !important;
+  letter-spacing: 0;
+  padding: 20px 20px !important;
+}
+
+.our-techno {
+  background-color: #F1F3F3;
+  min-height: 50vh;
+}
+
+.our-techno h3 {
+  color: #B3B3B3;
+  font-size: 13px;
+  font-weight: bold;
+  letter-spacing: 0;
+  line-height: 16px;
+}
+
+.work-with-us {
+  background-color: #007070;
+  min-height: 100vh;
+  overflow: hidden;
+}
+
+.fixed-size {
+  width: auto;
+  height: 400px !important;
+}
+
+.size165 {
+  width: 165px !important;
+  height: 165px !important;
+}
+
+.section-footer {
+  font-size: 14px;
+  line-height: 18px;
+}
+
+.section-footer {
+  background-color: black !important;
+  color: #FFFFFF !important;
+  font-size: 18px !important;
+}
+
+.fa {
+  color: #FFDB43;
+}
