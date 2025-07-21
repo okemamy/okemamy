@@ -1,0 +1,48 @@
+@import 'bootstrap/scss/bootstrap';
+@import 'bootstrap-icons/font/bootstrap-icons';
+@import url("https://cdn.rawgit.com/mfd/09b70eb47474836f25a21660282ce0fd/raw/e06a670afcb2b861ed2ac4a1ef752d062ef6b46b/Gilroy.css");
+
+body {
+  font-family: 'Gilroy', Arial, Helvetica, sans-serif;
+}
+
+/* Base Colors */
+
+.primary-color {
+  color: #1e3c94;
+}
+
+.secondary-color {
+  color: #f8c561;
+}
+
+.ternary-color {
+  color: #f47f21;
+}
+
+/* BG Colors */
+
+.primary-bgcolor {
+  background-color: #1e3c94;
+}
+
+.secondary-bgcolor {
+  background-color: #f8c561;
+}
+
+.ternary-bgcolor {
+  background-color: #f47f21;
+}
+
+/* Navbar */
+
+.navbar-brand-logo {
+  width: 80px;
+}
+
+.hero {
+  background-color: #1e3c94;
+  height: 65vh;
+  clip-path: polygon(0px 0px, 100% 0px, 100% 90%, 0px 100%);
+}
+
