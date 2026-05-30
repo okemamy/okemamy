@@ -73,6 +73,7 @@
         <div class="flex items-center gap-6 text-sm font-semibold text-slate-600">
           <a href="#services" class="transition hover:text-primary">Services</a>
           <a href="#projets" class="transition hover:text-primary">Projets</a>
+          <a href="#clients" class="transition hover:text-primary">Clients</a>
           <a href="#contact" class="rounded-full bg-primary px-5 py-2 text-white transition hover:bg-accent">Contact</a>
         </div>
       </nav>
@@ -88,7 +89,12 @@
             <p class="mt-6 max-w-xl text-lg text-slate-100">Avec cette nouvelle version Tailwind, nous mettons en avant nos projets en cours et notre savoir-faire pour créer des expériences web impactantes.</p>
             <div class="mt-8 flex flex-wrap gap-4">
               <a href="#projets" class="rounded-full bg-secondary px-6 py-3 text-sm font-bold text-primary transition hover:bg-white">Voir nos projets en cours</a>
-              <a href="#services" class="rounded-full border border-white px-6 py-3 text-sm font-bold text-white transition hover:bg-white hover:text-primary">Découvrir nos services</a>
+              <a href="#contact" class="rounded-full border border-white px-6 py-3 text-sm font-bold text-white transition hover:bg-white hover:text-primary">Demander un devis</a>
+            </div>
+            <div class="mt-8 flex flex-wrap items-center gap-4 text-xs font-semibold uppercase tracking-wide text-slate-100">
+              <span class="rounded-full bg-white/10 px-4 py-2">50+ projets réalisés</span>
+              <span class="rounded-full bg-white/10 px-4 py-2">30+ clients accompagnés</span>
+              <span class="rounded-full bg-white/10 px-4 py-2">Réponse en 24h</span>
             </div>
           </div>
           <div class="flex justify-center lg:justify-end">
@@ -122,6 +128,30 @@
         </div>
       </section>
 
+      <section id="clients" class="border-y border-slate-200 bg-white py-16">
+        <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+          <div class="text-center">
+            <p class="text-sm font-semibold uppercase tracking-[0.2em] text-accent">Ils nous font confiance</p>
+            <h2 class="mt-3 text-3xl font-extrabold text-primary sm:text-4xl">Nos clients</h2>
+            <p class="mx-auto mt-4 max-w-2xl text-slate-600">Nous collaborons avec des équipes ambitieuses qui veulent accélérer leur croissance digitale.</p>
+          </div>
+          <div class="mt-10 grid items-center gap-6 rounded-3xl bg-slate-50 p-6 ring-1 ring-slate-200 sm:grid-cols-2 lg:grid-cols-4">
+            <div class="flex h-20 items-center justify-center rounded-2xl bg-white p-4">
+              <img src="images/partners/simplon_senegal.png" alt="Simplon Sénégal" class="max-h-12 w-auto">
+            </div>
+            <div class="flex h-20 items-center justify-center rounded-2xl bg-white p-4">
+              <img src="images/partners/energy_generation.png" alt="Energy Generation" class="max-h-12 w-auto">
+            </div>
+            <div class="flex h-20 items-center justify-center rounded-2xl bg-white p-4">
+              <img src="images/partners/respublica_logo.png" alt="Respublica" class="max-h-12 w-auto">
+            </div>
+            <div class="flex h-20 items-center justify-center rounded-2xl bg-white p-4">
+              <img src="images/partners/shopmeaway.png" alt="Shopmeaway" class="max-h-12 w-auto">
+            </div>
+          </div>
+        </div>
+      </section>
+
       <section id="projets" class="bg-slate-900 py-20 text-white">
         <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div class="flex flex-wrap items-end justify-between gap-6">
@@ -139,7 +169,7 @@
                 <h3 class="text-lg font-bold">Plateforme E-commerce locale</h3>
                 <span class="rounded-full bg-secondary px-3 py-1 text-xs font-bold text-primary">75%</span>
               </div>
-              <p class="text-sm text-slate-300">Refonte de l'expérience d'achat mobile-first avec tunnel de conversion optimisé.</p>
+              <p class="text-sm text-slate-300">Refonte de l'expérience d'achat mobile-first avec tunnel de conversion optimisé et paiement local intégré.</p>
               <div class="mt-5 h-2 rounded-full bg-white/10">
                 <div class="h-2 w-3/4 rounded-full bg-secondary"></div>
               </div>
@@ -149,7 +179,7 @@
                 <h3 class="text-lg font-bold">Application de gestion RH</h3>
                 <span class="rounded-full bg-accent px-3 py-1 text-xs font-bold text-white">60%</span>
               </div>
-              <p class="text-sm text-slate-300">Module recrutement, suivi de performance et reporting décisionnel en temps réel.</p>
+              <p class="text-sm text-slate-300">Module recrutement, suivi de performance et reporting décisionnel en temps réel pour équipes RH.</p>
               <div class="mt-5 h-2 rounded-full bg-white/10">
                 <div class="h-2 w-3/5 rounded-full bg-accent"></div>
               </div>
@@ -159,11 +189,14 @@
                 <h3 class="text-lg font-bold">Portail média éducatif</h3>
                 <span class="rounded-full bg-emerald-400 px-3 py-1 text-xs font-bold text-emerald-950">45%</span>
               </div>
-              <p class="text-sm text-slate-300">Création d'un hub contenu pour l'apprentissage digital et la diffusion vidéo.</p>
+              <p class="text-sm text-slate-300">Création d'un hub contenu pour l'apprentissage digital, la diffusion vidéo et la monétisation.</p>
               <div class="mt-5 h-2 rounded-full bg-white/10">
                 <div class="h-2 w-[45%] rounded-full bg-emerald-400"></div>
               </div>
             </article>
+          </div>
+          <div class="mt-10 text-center">
+            <a href="#contact" class="inline-flex rounded-full bg-secondary px-7 py-3 text-sm font-bold text-primary transition hover:bg-white">Lancer mon projet avec Okemamy</a>
           </div>
         </div>
       </section>
@@ -171,12 +204,12 @@
       <section class="mx-auto grid max-w-7xl gap-10 px-4 py-20 sm:px-6 lg:grid-cols-2 lg:items-center lg:px-8">
         <div>
           <p class="text-sm font-semibold uppercase tracking-[0.2em] text-accent">Pourquoi Okemamy</p>
-          <h2 class="mt-3 text-3xl font-extrabold text-primary sm:text-4xl">Un website qui reflète votre ambition</h2>
-          <p class="mt-4 text-slate-600">Cette refonte renforce la clarté, l'impact visuel et la confiance: messages plus directs, sections stratégiques et contenu orienté conversion.</p>
+          <h2 class="mt-3 text-3xl font-extrabold text-primary sm:text-4xl">Un site web vendeur, clair et orienté résultats</h2>
+          <p class="mt-4 text-slate-600">Nous avons renforcé les éléments qui transforment les visiteurs en prospects: preuve sociale, bénéfices explicites et appels à l'action visibles.</p>
           <ul class="mt-8 space-y-3 text-sm font-medium text-slate-700">
             <li class="flex items-center gap-3"><span class="h-2.5 w-2.5 rounded-full bg-primary"></span>Design moderne optimisé mobile</li>
             <li class="flex items-center gap-3"><span class="h-2.5 w-2.5 rounded-full bg-accent"></span>Projets en cours mis en avant</li>
-            <li class="flex items-center gap-3"><span class="h-2.5 w-2.5 rounded-full bg-secondary"></span>Parcours utilisateur simplifié</li>
+            <li class="flex items-center gap-3"><span class="h-2.5 w-2.5 rounded-full bg-secondary"></span>Parcours utilisateur simplifié vers la prise de contact</li>
           </ul>
         </div>
         <div>
@@ -191,7 +224,8 @@
               <div class="max-w-2xl">
                 <p class="text-sm font-semibold uppercase tracking-[0.2em] text-accent">Contact</p>
                 <h2 class="mt-3 text-3xl font-extrabold text-primary sm:text-4xl">Parlons de votre prochain projet digital</h2>
-                <p class="mt-4 text-slate-600">Vous avez une idée, une refonte ou un produit à lancer ? L'équipe Okemamy vous accompagne de la stratégie à la livraison.</p>
+                <p class="mt-4 text-slate-600">Vous avez une idée, une refonte ou un produit à lancer ? L'équipe Okemamy vous accompagne de la stratégie à la livraison, avec un premier cadrage rapide.</p>
+                <p class="mt-3 text-sm font-semibold text-primary">✅ Réponse sous 24h • ✅ Échange de cadrage gratuit</p>
               </div>
               <a href="mailto:contact@okemamy.com" class="inline-flex items-center justify-center rounded-full bg-primary px-7 py-3 text-sm font-bold text-white transition hover:bg-accent">contact@okemamy.com</a>
             </div>
@@ -207,6 +241,7 @@
           <a href="https://www.linkedin.com/company/okemamy/" target="_blank" rel="noopener" class="text-white/80 transition hover:text-secondary">LinkedIn</a>
           <a href="#services" class="text-white/80 transition hover:text-secondary">Services</a>
           <a href="#projets" class="text-white/80 transition hover:text-secondary">Projets</a>
+          <a href="#clients" class="text-white/80 transition hover:text-secondary">Clients</a>
         </div>
       </div>
     </footer>
