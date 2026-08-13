@@ -39,6 +39,27 @@ const Projects = {
       }
     },
     {
+      id: 'yoonema',
+      image: 'https://s.wordpress.com/mshots/v1/https%3A%2F%2Fyoonema.com/?w=800&h=500',
+      preview: true,
+      url: 'https://yoonema.com/',
+      category: 'web',
+      status: 'done',
+      featured: true,
+      fr: {
+        title: 'Yoonema',
+        client: 'Marketplace · Made in Senegal',
+        desc: 'Marketplace e-commerce dédiée aux producteurs et artisans sénégalais. Boutique vendeur, catalogue multi-catégories et parcours acheteur mobile-first.',
+        tags: ['Rails', 'Marketplace', 'E-commerce']
+      },
+      en: {
+        title: 'Yoonema',
+        client: 'Marketplace · Made in Senegal',
+        desc: 'E-commerce marketplace for Senegalese producers and artisans. Seller storefronts, multi-category catalog, and mobile-first buyer journey.',
+        tags: ['Rails', 'Marketplace', 'E-commerce']
+      }
+    },
+    {
       id: 'shopmeaway',
       image: 'images/partners/shopmeaway.png',
       category: 'web',
@@ -285,10 +306,22 @@ const Projects = {
       .map((tag) => `<span class="rounded-full bg-primary-container/60 px-2.5 py-0.5 text-xs font-medium text-primary">${tag}</span>`)
       .join('');
 
+    const mediaClass = project.preview
+      ? 'h-44 w-full object-cover'
+      : 'max-h-28 w-full object-contain';
+    const mediaWrapperClass = project.preview
+      ? 'h-44 overflow-hidden bg-surface-dim'
+      : 'flex h-44 items-center justify-center bg-surface-dim p-6';
+
+    const visitLabel = L.visit || (lang === 'en' ? 'Visit site →' : 'Voir le site →');
+    const visitLink = project.url
+      ? `<a href="${project.url}" target="_blank" rel="noopener noreferrer" class="mt-4 inline-flex w-fit items-center gap-1 text-label-large font-semibold text-primary transition hover:gap-2">${visitLabel}</a>`
+      : '';
+
     return `
       <article class="project-card flex flex-col overflow-hidden rounded-3xl bg-surface-bright shadow-md-elevation-1 transition hover:-translate-y-1 hover:shadow-md-elevation-3" data-category="${project.category}" data-status="${project.status}">
-        <div class="flex h-44 items-center justify-center bg-surface-dim p-6">
-          <img src="${project.image}" alt="${copy.title}" class="max-h-28 w-full object-contain" loading="lazy">
+        <div class="${mediaWrapperClass}">
+          <img src="${project.image}" alt="${copy.title}" class="${mediaClass}" loading="lazy">
         </div>
         <div class="flex flex-1 flex-col p-6">
           <div class="mb-3 flex flex-wrap items-center gap-2">
@@ -298,6 +331,7 @@ const Projects = {
           <h3 class="text-title-large font-semibold text-primary">${copy.title}</h3>
           <p class="mt-2 flex-1 text-body-medium text-on-surface-variant">${copy.desc}</p>
           <div class="mt-4 flex flex-wrap gap-2">${tags}</div>
+          ${visitLink}
         </div>
       </article>
     `;
